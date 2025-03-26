@@ -1,0 +1,54 @@
+@import url("styles/header.css");
+@import url("styles/about.css");
+@import url("styles/work.css");
+@import url("styles/education.css");
+@import url("styles/projects.css");
+@import url("styles/footer.css");
+
+:root {
+    --fonte-primaria: "Geist";
+    --fonte-secundaria: "Hind";
+    --fonte-terciaria: "Poppins";
+    --branco: #FFFFFF;
+    --branco-primaria: #EEEEEE;
+    --branco-secundaria: #f7f7f7;
+    --branco-terciaria: #EBECEE;
+    --preto: #000000;
+    --preto-primaria: #131313;
+    --preto-secundaria: #1A1A19;
+    --preto-terciaria: #121212;
+    --vermelho: #a11515;
+    --titulo-destaque: #D84040;
+    --cor-destaque: #D84040;
+    --cor-destaque-selecionada: #B6BBC4;
+
+}
+
+::selection {
+    background: var(--cor-destaque-selecionada);
+    color: var(--preto);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--branco-secundaria);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-primaria);
+    color: var(--preto-primaria);
+}
+
+.options__title__number {
+    color: var(--preto);
+    font-weight: 700;
+}
+
+.options__title__text {
+    background: var(--titulo-destaque);
+    padding: 2px 6px;
+}

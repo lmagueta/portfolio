@@ -1,0 +1,35 @@
+.header {
+    padding: 2% 0 0 54%; 
+    background-color: transparent;
+}
+
+.container {
+    display: flex;
+    gap: 80px;
+}
+
+.options__link__number {
+    color: var(--preto);
+    font-weight: 700;
+}
+
+.options__link__text {
+    color: var(--preto);
+    text-transform: uppercase;
+}
+
+.options__link {
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.options__link:hover {
+    background-color: var(--cor-destaque);
+    font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        display: none;
+    }
+}
